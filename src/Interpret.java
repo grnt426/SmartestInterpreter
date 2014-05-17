@@ -55,7 +55,7 @@ public class Interpret{
 			}
 			System.out.printf("%03x %03x\n", lineNum++, opc);
 		}
-		System.out.println();
+		System.out.println("0");
 	}
 
 	private void initMap(){
