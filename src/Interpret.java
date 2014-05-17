@@ -53,7 +53,7 @@ public class Interpret{
 				}
 				shift -= 2;
 			}
-			System.out.printf("%03x %03x\n", lineNum++, opc);
+			System.out.printf("%03x 1 %03x\n", lineNum++, opc);
 		}
 		System.out.println("0");
 	}
