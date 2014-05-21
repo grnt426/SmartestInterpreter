@@ -62,17 +62,17 @@ public class Interpret{
 		instructions.put("NOP", 0x0);
 		instructions.put("ADD", 0x100);
 		instructions.put("ADDI", 0x200);
-		instructions.put("AND", 0x300);
-		instructions.put("OR", 0x400);
-		instructions.put("XOR", 0x500);
-		instructions.put("SLL", 0x600);
-		instructions.put("SRL", 0x700);
-		instructions.put("SRA", 0x800);
-		instructions.put("SB", 0x900);
-		instructions.put("LB", 0xA00);
-		instructions.put("SLT", 0xB00);
+		instructions.put("SUB", 0x300);
+		instructions.put("AND", 0x400);
+		instructions.put("OR", 0x500);
+		instructions.put("XOR", 0x600);
+		instructions.put("SLL", 0x700);
+		instructions.put("SRL", 0x800);
+		instructions.put("SRA", 0x900);
+		instructions.put("SB", 0xA00);
+		instructions.put("LB", 0xB00);
 		instructions.put("BEZ", 0xC00);
-		instructions.put("BNE", 0xD00);
+		instructions.put("BNZ", 0xD00);
 		instructions.put("JUMP", 0xE00);
 		instructions.put("HALT", 0xF00);
 
